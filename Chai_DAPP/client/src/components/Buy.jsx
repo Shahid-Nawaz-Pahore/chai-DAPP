@@ -48,6 +48,7 @@ const Buy = ({ state }) => {
                         placeholder="Enter Name"
                         required
                     />
+                    
                 </div>
                 <div className="form-group">
                     <label htmlFor="message" className="form-label">Message</label>
