@@ -32,11 +32,11 @@ const Memos = ({ state }) => {
         </thead>
         <tbody>
           {memos.map((memo, index) => (
-            <tr key={index}>
+        <tr key={index}>
               <td>{memo.name}</td>
               <td>{memo.message}</td>
               <td>{new Date(memo.timestamp * 1000).toLocaleString()}</td>
-              <td>{memo.from}</td>
+              <td>{memo.from}</td>    
             </tr>
           ))}
         </tbody>
